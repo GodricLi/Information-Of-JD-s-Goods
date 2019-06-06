@@ -21,6 +21,11 @@ MONGO_COLLECTION = 'goods'
 client = pymongo.MongoClient(MONGO_URL)
 db = client[MONGO_DB]
 
+# Chrome Headless模式
+# chrome_options = webdriver.ChromeOptions()
+# chrome_options.add_argument('--headless')
+# browser = webdriver.Chrome(chrome_options=chrome_options)
+
 
 def get_page(page):
     """
