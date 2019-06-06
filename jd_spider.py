@@ -26,6 +26,12 @@ db = client[MONGO_DB]
 # chrome_options.add_argument('--headless')
 # browser = webdriver.Chrome(chrome_options=chrome_options)
 
+# 对接Firefox浏览器
+# browser = webdriver.Firefox()
+
+# 使用photamojs
+# browser = webdriver.PhantomJS()
+
 
 def get_page(page):
     """
